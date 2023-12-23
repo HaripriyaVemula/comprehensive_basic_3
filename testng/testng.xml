@@ -1,0 +1,13 @@
+<suite name="AutomationAnywhereSuite" parallel="classes" thread-count="1" verbose="2">
+    <test name="ProductsNavigationTest">
+        <classes>
+            <class name="your.package.name.AutomationAnywhereTestNG"/>
+        </classes>
+    </test>
+    <test name="RequestDemoNavigationTest">
+        <classes>
+            <class name="your.package.name.AutomationAnywhereTestNG"/>
+        </classes>
+    </test>
+    <parameter name="outputDirectory" value="custom-reports"/>
+</suite>
